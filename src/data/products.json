@@ -1,0 +1,1535 @@
+[
+  {
+    "id": "arrollado-primavera",
+    "name": "Arrollado Primavera (5 un)",
+    "price": 3500,
+    "description": "Arrollado tradicional relleno de verduras y carne.",
+    "imageUrl": "https://placeholder.com/arrollado.jpg",
+    "category": "Entradas",
+    "stock": 100,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "gyosas-5",
+    "name": "Gyosas (5 un)",
+    "price": 3500,
+    "description": "Empanaditas japonesas al vapor o fritas. Elige tu relleno.",
+    "imageUrl": "https://placeholder.com/gyosas.jpg",
+    "category": "Entradas",
+    "stock": 100,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Relleno",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Camarón",
+            "price": 0
+          },
+          {
+            "name": "Cerdo",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bolitas-crispy",
+    "name": "Bolitas Crispy (5 un)",
+    "price": 3500,
+    "description": "Base de queso y cebollín apanadas en panko.",
+    "imageUrl": "https://placeholder.com/bolitas.jpg",
+    "category": "Entradas",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Base",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Queso y Cebollín",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Elige Proteína",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Camarón",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tenders-pollo",
+    "name": "Tenders de Pollo (6 un)",
+    "price": 5990,
+    "description": "Tiras de pollo crujientes.",
+    "imageUrl": "https://placeholder.com/tenders.jpg",
+    "category": "Entradas",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "papas-fritas"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "salmon-crunch",
+    "name": "Salmon Crunch (4 un)",
+    "price": 7990,
+    "description": "Torres de salmón apanado, relleno de palta, queso, cebollín en salsa unagi y fuji.",
+    "imageUrl": "https://placeholder.com/salmon-crunch.jpg",
+    "category": "Entradas",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "rollitos-platano",
+    "name": "Rollitos de Plátano (5 un)",
+    "price": 6000,
+    "description": "Lámina de plátano rellena con ensalada dinamita y salsa fuji.",
+    "imageUrl": "https://placeholder.com/platano.jpg",
+    "category": "Entradas",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "papas-fritas",
+    "name": "Papas Fritas",
+    "price": 3700,
+    "description": "Papas fritas crujientes. Elige tu tamaño.",
+    "imageUrl": "https://placeholder.com/papas.jpg",
+    "category": "Entradas",
+    "stock": 100,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Tamaño",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Medianas",
+            "price": 0
+          },
+          {
+            "name": "Grandes",
+            "price": 1700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "niguiris-4",
+    "name": "Niguiris (4 un)",
+    "price": 4500,
+    "description": "Bolitas de arroz cubiertas de pescado fresco.",
+    "imageUrl": "https://placeholder.com/niguiri.jpg",
+    "category": "Entradas",
+    "stock": 40,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Proteína",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Camarón",
+            "price": 0
+          },
+          {
+            "name": "Salmón",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sashimi-4",
+    "name": "Sashimis (4 un)",
+    "price": 6000,
+    "description": "Cortes de pescado fresco seleccionados.",
+    "imageUrl": "https://placeholder.com/sashimi.jpg",
+    "category": "Entradas",
+    "stock": 40,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Proteína",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Atún",
+            "price": 0
+          },
+          {
+            "name": "Salmón",
+            "price": 500
+          },
+          {
+            "name": "Pulpo",
+            "price": 500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camaron-super-crunch",
+    "name": "Camarón Super Crunch (6 un)",
+    "price": 6990,
+    "description": "Camarones apanados con salsa de la casa.",
+    "imageUrl": "https://placeholder.com/camaron.jpg",
+    "category": "Entradas",
+    "stock": 40,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ceviche-camaron",
+    "name": "Ceviche de Camarón",
+    "price": 10500,
+    "description": "Camarón, palta, pimentón, cebolla morada, cilantro y leche de tigre.",
+    "imageUrl": "https://placeholder.com/cev-camaron.jpg",
+    "category": "Ceviches",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ceviche-maki",
+    "name": "Ceviche Maki",
+    "price": 10990,
+    "description": "Salmón, palta, pimentón, cebolla morada, cilantro y leche de tigre.",
+    "imageUrl": "https://placeholder.com/cev-maki.jpg",
+    "category": "Ceviches",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ceviche-mixto",
+    "name": "Ceviche Mixto",
+    "price": 11990,
+    "description": "Lomo de salmón, tilapia, camarón, kanikama, pulpo, cebolla y cilantro.",
+    "imageUrl": "https://placeholder.com/cev-mixto.jpg",
+    "category": "Ceviches",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "trilogia-ceviche",
+    "name": "Trilogía de Ceviche",
+    "price": 20990,
+    "description": "Tres ceviches: Peruano (tilapia), Salmón (leche tigre) y Camarón-Mango.",
+    "imageUrl": "https://placeholder.com/trilogia.jpg",
+    "category": "Ceviches",
+    "stock": 15,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "tablas-40"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-lomo-saltado",
+    "name": "Lomo Saltado Roll",
+    "price": 9990,
+    "description": "Envuelto en panko, relleno de queso y cebollín, con topping de lomo saltado.",
+    "imageUrl": "https://placeholder.com/lomo-roll.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-acevichado",
+    "name": "Roll Acevichado",
+    "price": 9500,
+    "description": "Camarón panko, queso, palta. Topping de ceviche.",
+    "imageUrl": "https://placeholder.com/acevichado.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Envoltura",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Panko",
+            "price": 0
+          },
+          {
+            "name": "Palta",
+            "price": 0
+          },
+          {
+            "name": "Sésamo",
+            "price": 0
+          },
+          {
+            "name": "Ciboulette",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "roll-tropical",
+    "name": "Tropical Roll",
+    "price": 8500,
+    "description": "Pollo panko, queso, cebollín, envuelto en plátano maduro.",
+    "imageUrl": "https://placeholder.com/tropical.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-dragon",
+    "name": "Dragon Roll",
+    "price": 8000,
+    "description": "Pollo teriyaki, queso, palta, cebollín, envuelto en panko. Salsas queso, picante, unagi.",
+    "imageUrl": "https://placeholder.com/dragon.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-sensation",
+    "name": "Sensation Roll",
+    "price": 9000,
+    "description": "Camarón panko, queso, palta, envuelto en salmón, salsa spicy flameada y maracuyá.",
+    "imageUrl": "https://placeholder.com/sensation.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-alaska",
+    "name": "Alaska Special",
+    "price": 9500,
+    "description": "Salmón, queso, palta. Envuelto en palta y salmón.",
+    "imageUrl": "https://placeholder.com/alaska.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-chicken-furikake",
+    "name": "Chicken Furikake",
+    "price": 8000,
+    "description": "Pollo panko, queso. Envoltura ciboulette/furikake, topping cebolla crunch.",
+    "imageUrl": "https://placeholder.com/furikake.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-dinamita",
+    "name": "Dinamita Roll",
+    "price": 8900,
+    "description": "Salmón panko, queso, palta. Envuelto en queso, topping ensalada surimi.",
+    "imageUrl": "https://placeholder.com/dinamita.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-fuji",
+    "name": "Fuji Roll",
+    "price": 8500,
+    "description": "Palta, queso, cebollín. Envuelto en panko, topping camarón furay y salsa fuji.",
+    "imageUrl": "https://placeholder.com/fuji.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-tiger",
+    "name": "Tiger Roll",
+    "price": 8500,
+    "description": "Camarón, queso, palta. Envuelto en plátano maduro, salsa queso fundido.",
+    "imageUrl": "https://placeholder.com/tiger.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-azumi",
+    "name": "Azumi Roll",
+    "price": 8990,
+    "description": "Kanikama crunch, queso, palta. Topping ensalada surimi y salsas.",
+    "imageUrl": "https://placeholder.com/azumi.jpg",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-vegetariano",
+    "name": "Poke Vegetariano",
+    "price": 7500,
+    "description": "Pepino, cebollín, pimentón, champiñón, cebolla, queso crema.",
+    "imageUrl": "https://placeholder.com/poke-veg.jpg",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-pollo",
+    "name": "Poke de Pollo",
+    "price": 7990,
+    "description": "Pollo salteado, pimentón, queso, pepino, zanahoria, cebollín.",
+    "imageUrl": "https://placeholder.com/poke-pollo.jpg",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-crunch",
+    "name": "Poke Crunch",
+    "price": 9500,
+    "description": "Pollo panko, camarón panko, queso, palta, cebollín.",
+    "imageUrl": "https://placeholder.com/poke-crunch.jpg",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-salmon",
+    "name": "Poke Salmón",
+    "price": 10990,
+    "description": "Salmón, zanahoria, palta, queso, cebollín.",
+    "imageUrl": "https://placeholder.com/poke-salmon.jpg",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-neptuno",
+    "name": "Poke Neptuno",
+    "price": 12990,
+    "description": "Salmón, kanikama, camarón, queso, palta, zanahoria, wakame.",
+    "imageUrl": "https://placeholder.com/poke-neptuno.jpg",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "sushi-burger",
+    "name": "Sushi Burger",
+    "price": 7500,
+    "description": "Base arroz, palta, cebollín, queso. Elige tu proteína.",
+    "imageUrl": "https://placeholder.com/burger.jpg",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "papas-fritas"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Proteína",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Champiñón",
+            "price": 0
+          },
+          {
+            "name": "Pollo",
+            "price": 500
+          },
+          {
+            "name": "Camarón Panko",
+            "price": 1490
+          },
+          {
+            "name": "Salmón",
+            "price": 2000
+          },
+          {
+            "name": "Mixta (Pollo y Camarón)",
+            "price": 4490
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ramen-shouyu",
+    "name": "Shouyu Ramen",
+    "price": 11990,
+    "description": "Caldo casa, fideos, cerdo, huevo ajitama, nori, maíz, cebolla, shitake.",
+    "imageUrl": "https://placeholder.com/ramen-cerdo.jpg",
+    "category": "Ramen",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ramen-miso-tori",
+    "name": "Miso Ramen Tori",
+    "price": 10990,
+    "description": "Caldo casa, fideos, pollo, huevo ajitama, nori, maíz, cebolla, shitake.",
+    "imageUrl": "https://placeholder.com/ramen-pollo.jpg",
+    "category": "Ramen",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ramen-miso-ebi",
+    "name": "Miso Ramen Ebi",
+    "price": 13000,
+    "description": "Caldo casa, fideos, camarón, huevo ajitama, nori, maíz, cebolla, shitake.",
+    "imageUrl": "https://placeholder.com/ramen-camaron.jpg",
+    "category": "Ramen",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "salteado-wok",
+    "name": "Salteado al Wok",
+    "price": 7990,
+    "description": "Vegetales frescos y arroz especial. Elige proteína.",
+    "imageUrl": "https://placeholder.com/wok.jpg",
+    "category": "Platos Calientes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Proteína",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Carne",
+            "price": 1000
+          },
+          {
+            "name": "Salmón",
+            "price": 4000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yakisoba",
+    "name": "Yakisoba",
+    "price": 8000,
+    "description": "Fideos japoneses, pimentón, zanahoria, cebollín, sésamo. Elige proteína.",
+    "imageUrl": "https://placeholder.com/yakisoba.jpg",
+    "category": "Platos Calientes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Variedad",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Camarón",
+            "price": 0
+          },
+          {
+            "name": "Vegetariano",
+            "price": 0
+          },
+          {
+            "name": "Fusión (Pollo/Cam/Calamar)",
+            "price": 3990
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lomo-saltado",
+    "name": "Lomo Saltado",
+    "price": 14000,
+    "description": "Lomo de vacuno salteado, cebolla, tomate, soya. Incluye papas y arroz.",
+    "imageUrl": "https://placeholder.com/lomo-saltado.jpg",
+    "category": "Platos Calientes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "arma-tu-roll",
+    "name": "Arma tu Roll (8 un)",
+    "price": 7990,
+    "description": "Elige 1 envoltura + 1 proteína + 1 vegetal. Incluye queso crema.",
+    "imageUrl": "https://placeholder.com/arma-roll.jpg",
+    "category": "Rolls",
+    "stock": 100,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "1. Elige Envoltura",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Panko",
+            "price": 0
+          },
+          {
+            "name": "Salmón",
+            "price": 0
+          },
+          {
+            "name": "Queso",
+            "price": 0
+          },
+          {
+            "name": "Sésamo",
+            "price": 0
+          },
+          {
+            "name": "Palta",
+            "price": 0
+          },
+          {
+            "name": "Nori",
+            "price": 0
+          },
+          {
+            "name": "Ciboulette",
+            "price": 0
+          },
+          {
+            "name": "Masago",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "2. Elige Proteína",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Salmón",
+            "price": 0
+          },
+          {
+            "name": "Camarón",
+            "price": 0
+          },
+          {
+            "name": "Kanikama",
+            "price": 0
+          },
+          {
+            "name": "Pulpo",
+            "price": 0
+          },
+          {
+            "name": "Vegetales",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "3. Elige Vegetal",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Cebollín",
+            "price": 0
+          },
+          {
+            "name": "Palta",
+            "price": 0
+          },
+          {
+            "name": "Pimentón",
+            "price": 0
+          },
+          {
+            "name": "Palmito",
+            "price": 0
+          },
+          {
+            "name": "Champiñón",
+            "price": 0
+          },
+          {
+            "name": "Aceitunas",
+            "price": 0
+          },
+          {
+            "name": "Ciboulette",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hand-roll-eleccion",
+    "name": "Hand Roll a Elección",
+    "price": 4000,
+    "description": "Elige 1 envoltura + 1 proteína + 1 vegetal. Incluye queso crema.",
+    "imageUrl": "https://placeholder.com/handroll.jpg",
+    "category": "Rolls",
+    "stock": 100,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "1. Elige Envoltura",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Panko",
+            "price": 0
+          },
+          {
+            "name": "Nori",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "2. Elige Proteína",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Camarón",
+            "price": 0
+          },
+          {
+            "name": "Champiñón",
+            "price": 0
+          },
+          {
+            "name": "Palmito",
+            "price": 0
+          },
+          {
+            "name": "Kanikama",
+            "price": 0
+          },
+          {
+            "name": "Aceituna",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "3. Elige Vegetal",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Cebollín",
+            "price": 0
+          },
+          {
+            "name": "Pimentón",
+            "price": 0
+          },
+          {
+            "name": "Palta",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tabla-40-clasica",
+    "name": "Tabla 40 Clásica",
+    "price": 15990,
+    "description": "40 cortes variados (Sésamo, Ciboulette, Panko Pollo/Queso/Palta y Panko Pollo/Queso/Cebollín).",
+    "imageUrl": "https://placeholder.com/tabla40.jpg",
+    "category": "Tablas",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-50-clasica",
+    "name": "Tabla 50 Clásica",
+    "price": 18990,
+    "description": "50 cortes (Palta, Sésamo, Ciboulette, 20 en Panko).",
+    "imageUrl": "https://placeholder.com/tabla50.jpg",
+    "category": "Tablas",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-hot-30",
+    "name": "Tabla Hot (30 piezas)",
+    "price": 14990,
+    "description": "30 Cortes calientes + 3 Ebi Furai.",
+    "imageUrl": "https://placeholder.com/tablahot.jpg",
+    "category": "Tablas",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-100-clasica",
+    "name": "Tabla 100 Clásica",
+    "price": 38500,
+    "description": "El festín total. 100 piezas variadas frías y calientes.",
+    "imageUrl": "https://placeholder.com/tabla100.jpg",
+    "category": "Tablas",
+    "stock": 10,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "barco-fusion-30",
+    "name": "Barco Fusión (30 pz)",
+    "price": 19990,
+    "description": "10 Dragon, 10 Inka, 10 California.",
+    "imageUrl": "https://placeholder.com/barco30.jpg",
+    "category": "Tablas",
+    "stock": 10,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "barco-fusion-premium",
+    "name": "Barco Premium (30 pz)",
+    "price": 22990,
+    "description": "10 Fuji, 10 Acevichado, 10 Dinamita.",
+    "imageUrl": "https://placeholder.com/barcopremium.jpg",
+    "category": "Tablas",
+    "stock": 10,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "barco-clasico-65",
+    "name": "Barco Clásico (65 pz)",
+    "price": 34000,
+    "description": "65 piezas variadas + 5 Gyosas mixtas.",
+    "imageUrl": "https://placeholder.com/barco65.jpg",
+    "category": "Tablas",
+    "stock": 10,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "combo-dinner",
+    "name": "Combo Dinner",
+    "price": 7990,
+    "description": "10 piezas (5 palta, 5 panko) + Bebida. Solo almuerzo.",
+    "imageUrl": "https://placeholder.com/dinner.jpg",
+    "category": "Promos",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "combo-sushi-burger",
+    "name": "Combo Sushi Burger",
+    "price": 11990,
+    "description": "Sushi Burger Pollo + Papas + Bebida.",
+    "imageUrl": "https://placeholder.com/combo-burger.jpg",
+    "category": "Promos",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "arma-tu-roll-sin-arroz",
+    "name": "Arma Roll Sin Arroz",
+    "price": 9990,
+    "description": "Roll proteico. 1 env + 2 prot + 2 veg + queso crema.",
+    "imageUrl": "https://placeholder.com/sin-arroz.jpg",
+    "category": "Rolls",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "1. Elige Envoltura",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Panko",
+            "price": 0
+          },
+          {
+            "name": "Salmón",
+            "price": 0
+          },
+          {
+            "name": "Queso",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "2. Elige Proteína (1)",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Salmón",
+            "price": 0
+          },
+          {
+            "name": "Camarón",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "2. Elige Proteína (2)",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Salmón",
+            "price": 0
+          },
+          {
+            "name": "Camarón",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "3. Elige Vegetal (1)",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Cebollín",
+            "price": 0
+          },
+          {
+            "name": "Palta",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "3. Elige Vegetal (2)",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Cebollín",
+            "price": 0
+          },
+          {
+            "name": "Palta",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bebida-lata",
+    "name": "Bebida Lata 350cc",
+    "price": 2000,
+    "description": "Bien fría.",
+    "imageUrl": "https://placeholder.com/bebida.jpg",
+    "category": "Bebidas",
+    "stock": 200,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Sabor",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Coca Cola Original",
+            "price": 0
+          },
+          {
+            "name": "Coca Cola Zero",
+            "price": 0
+          },
+          {
+            "name": "Pepsi",
+            "price": 0
+          },
+          {
+            "name": "Pepsi Zero",
+            "price": 0
+          },
+          {
+            "name": "Kem Piña",
+            "price": 0
+          },
+          {
+            "name": "Limón Soda",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "agua-mineral",
+    "name": "Agua Mineral",
+    "price": 1500,
+    "description": "Con gas o sin gas.",
+    "imageUrl": "https://placeholder.com/agua.jpg",
+    "category": "Bebidas",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Tipo",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Con Gas",
+            "price": 0
+          },
+          {
+            "name": "Sin Gas",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "red-bull",
+    "name": "Red Bull",
+    "price": 3000,
+    "description": "Original o Tropical.",
+    "imageUrl": "https://placeholder.com/redbull.jpg",
+    "category": "Bebidas",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Variedad",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Original",
+            "price": 0
+          },
+          {
+            "name": "Tropical",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cerveza-330",
+    "name": "Cerveza 330cc",
+    "price": 2500,
+    "description": "Heineken, Corona o Royal.",
+    "imageUrl": "https://placeholder.com/cerveza.jpg",
+    "category": "Bebidas",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Marca",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Heineken",
+            "price": 0
+          },
+          {
+            "name": "Corona",
+            "price": 0
+          },
+          {
+            "name": "Royal Gold",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cerveza-austral",
+    "name": "Cerveza Austral",
+    "price": 3500,
+    "description": "Calafate 330cc.",
+    "imageUrl": "https://placeholder.com/austral.jpg",
+    "category": "Bebidas",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "agua-sabores",
+    "name": "Agua de Sabores",
+    "price": 2000,
+    "description": "Agua de chía saborizada.",
+    "imageUrl": "https://placeholder.com/aguasabor.jpg",
+    "category": "Bebidas",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Sabor",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Piña",
+            "price": 0
+          },
+          {
+            "name": "Frutilla",
+            "price": 0
+          },
+          {
+            "name": "Mango",
+            "price": 0
+          },
+          {
+            "name": "Kiwi",
+            "price": 0
+          },
+          {
+            "name": "Tropical",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mojito-sabores",
+    "name": "Mojito Sabores",
+    "price": 6500,
+    "description": "Frutos rojos, maracuyá, frutilla, chirimoya o mango.",
+    "imageUrl": "https://placeholder.com/mojito.jpg",
+    "category": "Cocktail",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Sabor",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Frutos Rojos",
+            "price": 0
+          },
+          {
+            "name": "Maracuyá",
+            "price": 0
+          },
+          {
+            "name": "Frutilla",
+            "price": 0
+          },
+          {
+            "name": "Chirimoya",
+            "price": 0
+          },
+          {
+            "name": "Mango",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mojito-tradicional",
+    "name": "Mojito Tradicional",
+    "price": 6000,
+    "description": "Clásico.",
+    "imageUrl": "https://placeholder.com/mojito-trad.jpg",
+    "category": "Cocktail",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "sangria",
+    "name": "Sangría Vino Tinto",
+    "price": 5600,
+    "description": "Copa fresca.",
+    "imageUrl": "https://placeholder.com/sangria.jpg",
+    "category": "Cocktail",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "salsas-extra",
+    "name": "Salsas Extra",
+    "price": 800,
+    "description": "Potes de 30ml.",
+    "imageUrl": "https://placeholder.com/salsa.jpg",
+    "category": "Extras",
+    "stock": 100,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Salsa",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Salsa Unagi",
+            "price": 0
+          },
+          {
+            "name": "Salsa Soya (-300)",
+            "price": -300
+          },
+          {
+            "name": "Salsa Acevichada",
+            "price": 0
+          },
+          {
+            "name": "Salsa Picante",
+            "price": 0
+          },
+          {
+            "name": "Salsa de Queso",
+            "price": 0
+          },
+          {
+            "name": "Mayo Japonesa",
+            "price": 0
+          },
+          {
+            "name": "Salsa Fuji",
+            "price": 0
+          },
+          {
+            "name": "Jengibre (-300)",
+            "price": -300
+          },
+          {
+            "name": "Wasabi (-300)",
+            "price": -300
+          },
+          {
+            "name": "Ayuda Palitos (-800)",
+            "price": -800
+          }
+        ]
+      }
+    ]
+  }
+]

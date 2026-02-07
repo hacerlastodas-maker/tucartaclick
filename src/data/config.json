@@ -1,0 +1,53 @@
+{
+  "name": "Fusión Sushi",
+  "whatsappNumber": "56956401504",
+  "logoUrl": "https://i.postimg.cc/CLLjCfhc/toi-horizontal.png",
+  "theme": {
+    "primary": "255 85 0",
+    "background": "243 244 246",
+    "backgroundImage": "https://i.postimg.cc/fy5YnMKc/compressed-fondo.webp"
+  },
+  "schedule": {
+    "open": "12:00",
+    "close": "23:00"
+  },
+  "announcement": {
+    "active": true,
+    "text": "De Martes a Miercoles 5% Off con el codigo FUSIONLOVERS",
+    "bgColor": "#000000",
+    "textColor": "#FFFFFF"
+  },
+  "delivery": {
+    "zone1_price": 0,
+    "zone2_price": 0
+  },
+  "_raw": {
+    "store_name": "Fusión Sushi",
+    "whatsapp_number": "56956401504",
+    "logo_url": "https://i.postimg.cc/CLLjCfhc/toi-horizontal.png",
+    "primary_color": "#FF5500",
+    "background_color": "#F3F4F6",
+    "background_image": "https://i.postimg.cc/fy5YnMKc/compressed-fondo.webp",
+    "open_time": "12:00",
+    "close_time": "23:00",
+    "announcement_active": "TRUE",
+    "announcement_text": "De Martes a Miercoles 5% Off con el codigo FUSIONLOVERS",
+    "announcement_bg_color": "#000000",
+    "announcement_text_color": "#FFFFFF",
+    "delivery_zones": "Valor mínimo:2500",
+    "coupons": "FUSIONLOVERS:5"
+  },
+  "deliveryZones": [
+    {
+      "name": "Valor mínimo",
+      "price": 2500
+    }
+  ],
+  "coupons": [
+    {
+      "code": "FUSIONLOVERS",
+      "type": "PERCENT",
+      "value": 5
+    }
+  ]
+}
