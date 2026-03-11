@@ -1,19 +1,19 @@
 {
   "name": "Fusión Sushi",
-  "whatsappNumber": "56956401504",
-  "logoUrl": "https://i.postimg.cc/CLLjCfhc/toi-horizontal.png",
+  "whatsappNumber": "56956401503",
+  "logoUrl": "https://i.postimg.cc/XYTJLksw/logopng.png",
   "theme": {
-    "primary": "255 85 0",
+    "primary": "195 24 23",
     "background": "243 244 246",
     "backgroundImage": "https://i.postimg.cc/fy5YnMKc/compressed-fondo.webp"
   },
   "schedule": {
     "open": "12:00",
-    "close": "23:00"
+    "close": "23:50"
   },
   "announcement": {
-    "active": true,
-    "text": "De Martes a Miercoles 5% Off con el codigo FUSIONLOVERS",
+    "active": false,
+    "text": "Hoy 10% Off con el codigo MUJER",
     "bgColor": "#000000",
     "textColor": "#FFFFFF"
   },
@@ -23,31 +23,220 @@
   },
   "_raw": {
     "store_name": "Fusión Sushi",
-    "whatsapp_number": "56956401504",
-    "logo_url": "https://i.postimg.cc/CLLjCfhc/toi-horizontal.png",
-    "primary_color": "#FF5500",
+    "whatsapp_number": "56956401503",
+    "logo_url": "https://i.postimg.cc/XYTJLksw/logopng.png",
+    "primary_color": "#C31817",
     "background_color": "#F3F4F6",
     "background_image": "https://i.postimg.cc/fy5YnMKc/compressed-fondo.webp",
     "open_time": "12:00",
-    "close_time": "23:00",
-    "announcement_active": "TRUE",
-    "announcement_text": "De Martes a Miercoles 5% Off con el codigo FUSIONLOVERS",
+    "close_time": "23:50",
+    "announcement_active": "FALSE",
+    "announcement_text": "Hoy 10% Off con el codigo MUJER",
     "announcement_bg_color": "#000000",
     "announcement_text_color": "#FFFFFF",
-    "delivery_zones": "Valor mínimo:2500",
-    "coupons": "FUSIONLOVERS:5"
+    "delivery_zones": "SENDERO:3000; HOSPITAL BIPROVINCIAL:3000; RETOÑO:3000; AMTUMAPU:3000; AGUSTIN AVEZON:3000; ACONCAGUA:3000; CERRO MAYACA:3000; ALBERDI:3000; AMANECER:3000; ARAUCARIAS:3000; Lorca:3000; VILLA LAS PALMAS TERMINAL:2000; Santa Teresita:2000; Instituto:2000; La Finka:2000; La Feria:2000; Vicuña Mackenna:2000; Villa Paraíso:2000; SIMON ALAMOS:2500; MERCED:2500; CONDOMINIO ALIWEN:2500; BOSTON:2500; REBOLAR:2500; CENTRO:2500; YUNGAY ORIENTE:2500; CONDOMINIO LOS LIBERTADORES:2500; COOPREVAL:2500; TETERA, ARANCIBIA LORCA PRIETO:3500; SAN ISIDRO HASTA REGIMIENTO:4000; SAN PEDRO:8000; CAJON SAN PEDRO:10000; La Palma al Oxigeno:3000; Los Mardones:4000; Callejón:3500; Santa Olivia:5000; Las Pataguas:5000; Boco Paradero 1:3000; Rauten Casas Viejas:5500; Manzanar:10000; Pocochay:5500; LA CRUZ PARADEROS 5 AL 07:2500; LA CRUZ PARADEROS 8 AL 10:3500; LA CRUZ PARADEROS 11 AL 13:4000; LA CRUZ PARADEROS 14 al 15:4500; LA CRUZ PARADEROS 16 al 17:5000; LA CRUZ PARADEROS 18 al 19:5500; LA CRUZ PARADEROS 20 al 22:6500",
+    "coupons": "PRUEBAS;1"
   },
   "deliveryZones": [
     {
-      "name": "Valor mínimo",
+      "name": "SENDERO",
+      "price": 3000
+    },
+    {
+      "name": "HOSPITAL BIPROVINCIAL",
+      "price": 3000
+    },
+    {
+      "name": "RETOÑO",
+      "price": 3000
+    },
+    {
+      "name": "AMTUMAPU",
+      "price": 3000
+    },
+    {
+      "name": "AGUSTIN AVEZON",
+      "price": 3000
+    },
+    {
+      "name": "ACONCAGUA",
+      "price": 3000
+    },
+    {
+      "name": "CERRO MAYACA",
+      "price": 3000
+    },
+    {
+      "name": "ALBERDI",
+      "price": 3000
+    },
+    {
+      "name": "AMANECER",
+      "price": 3000
+    },
+    {
+      "name": "ARAUCARIAS",
+      "price": 3000
+    },
+    {
+      "name": "Lorca",
+      "price": 3000
+    },
+    {
+      "name": "VILLA LAS PALMAS TERMINAL",
+      "price": 2000
+    },
+    {
+      "name": "Santa Teresita",
+      "price": 2000
+    },
+    {
+      "name": "Instituto",
+      "price": 2000
+    },
+    {
+      "name": "La Finka",
+      "price": 2000
+    },
+    {
+      "name": "La Feria",
+      "price": 2000
+    },
+    {
+      "name": "Vicuña Mackenna",
+      "price": 2000
+    },
+    {
+      "name": "Villa Paraíso",
+      "price": 2000
+    },
+    {
+      "name": "SIMON ALAMOS",
       "price": 2500
+    },
+    {
+      "name": "MERCED",
+      "price": 2500
+    },
+    {
+      "name": "CONDOMINIO ALIWEN",
+      "price": 2500
+    },
+    {
+      "name": "BOSTON",
+      "price": 2500
+    },
+    {
+      "name": "REBOLAR",
+      "price": 2500
+    },
+    {
+      "name": "CENTRO",
+      "price": 2500
+    },
+    {
+      "name": "YUNGAY ORIENTE",
+      "price": 2500
+    },
+    {
+      "name": "CONDOMINIO LOS LIBERTADORES",
+      "price": 2500
+    },
+    {
+      "name": "COOPREVAL",
+      "price": 2500
+    },
+    {
+      "name": "TETERA, ARANCIBIA LORCA PRIETO",
+      "price": 3500
+    },
+    {
+      "name": "SAN ISIDRO HASTA REGIMIENTO",
+      "price": 4000
+    },
+    {
+      "name": "SAN PEDRO",
+      "price": 8000
+    },
+    {
+      "name": "CAJON SAN PEDRO",
+      "price": 10000
+    },
+    {
+      "name": "La Palma al Oxigeno",
+      "price": 3000
+    },
+    {
+      "name": "Los Mardones",
+      "price": 4000
+    },
+    {
+      "name": "Callejón",
+      "price": 3500
+    },
+    {
+      "name": "Santa Olivia",
+      "price": 5000
+    },
+    {
+      "name": "Las Pataguas",
+      "price": 5000
+    },
+    {
+      "name": "Boco Paradero 1",
+      "price": 3000
+    },
+    {
+      "name": "Rauten Casas Viejas",
+      "price": 5500
+    },
+    {
+      "name": "Manzanar",
+      "price": 10000
+    },
+    {
+      "name": "Pocochay",
+      "price": 5500
+    },
+    {
+      "name": "LA CRUZ PARADEROS 5 AL 07",
+      "price": 2500
+    },
+    {
+      "name": "LA CRUZ PARADEROS 8 AL 10",
+      "price": 3500
+    },
+    {
+      "name": "LA CRUZ PARADEROS 11 AL 13",
+      "price": 4000
+    },
+    {
+      "name": "LA CRUZ PARADEROS 14 al 15",
+      "price": 4500
+    },
+    {
+      "name": "LA CRUZ PARADEROS 16 al 17",
+      "price": 5000
+    },
+    {
+      "name": "LA CRUZ PARADEROS 18 al 19",
+      "price": 5500
+    },
+    {
+      "name": "LA CRUZ PARADEROS 20 al 22",
+      "price": 6500
     }
   ],
   "coupons": [
     {
-      "code": "FUSIONLOVERS",
+      "code": "PRUEBAS",
       "type": "PERCENT",
-      "value": 5
+      "value": 0
+    },
+    {
+      "code": "1",
+      "type": "PERCENT",
+      "value": 0
     }
   ]
 }

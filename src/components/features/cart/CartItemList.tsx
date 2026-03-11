@@ -38,7 +38,7 @@ export function CartItemList({ items, onUpdateQuantity, onEdit }: CartItemListPr
                                 </div>
                             )}
                             <p className="text-sm font-bold text-gray-900">
-                                {formatPrice((item.price * item.quantity) + (item.modifiers?.reduce((s, m) => s + (m.price * 1), 0) || 0) * item.quantity)}
+                                {formatPrice((item.price + (item.modifiers?.reduce((s, m) => s + (m.price * m.quantity), 0) || 0)) * item.quantity)}
                             </p>
                         </div>
 
