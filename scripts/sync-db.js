@@ -102,14 +102,37 @@ async function fetchConfig() {
                 case 'coupons': {
                     if (!val) break;
                     try {
-                        config.coupons = val.split(';').map(c => {
-                            const [code, valueStr] = c.split(':').map(s => s.trim());
-                            if (!code) return null;
-                            const value = Number(valueStr) || 0;
+                        // Format: CODE;VALUE or CODE;VALUE>MIN_AMOUNT
+                        // Multiple coupons separated by commas: CODE1;10,CODE2;15>25.000
+                        config.coupons = val.split(',').map(entry => {
+                            entry = entry.trim();
+                            if (!entry) return null;
+
+                            // Split by ; to get [CODE, VALUE_PART]
+                            const semiParts = entry.split(';');
+                            const code = clean(semiParts[0]);
+                            if (!code || semiParts.length < 2) return null;
+
+                            const valuePart = clean(semiParts[1]); // e.g. "10" or "10>25.000"
+
+                            let value = 0;
+                            let minOrderAmount = 0;
+
+                            if (valuePart.includes('>')) {
+                                // Format: VALUE>MIN_AMOUNT (e.g. 10>25.000)
+                                const [valueStr, minStr] = valuePart.split('>').map(s => s.trim());
+                                value = Number(valueStr) || 0;
+                                // Strip dots from Chilean number format (25.000 -> 25000)
+                                minOrderAmount = Number(minStr.replace(/\./g, '')) || 0;
+                            } else {
+                                value = Number(valuePart) || 0;
+                            }
+
                             return {
                                 code: code.toUpperCase(),
                                 type: 'PERCENT',
-                                value: value
+                                value: value,
+                                minOrderAmount: minOrderAmount
                             };
                         }).filter(Boolean);
                     } catch (e) {

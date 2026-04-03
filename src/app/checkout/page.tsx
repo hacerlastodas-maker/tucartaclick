@@ -16,7 +16,7 @@ type PaymentMethod = 'Transferencia' | 'Efectivo' | 'Tarjeta (Débito/Crédito)'
 
 export default function CheckoutPage() {
     const router = useRouter();
-    const { items, getTotalPrice, getDiscountAmount, appliedCoupon, applyCoupon, removeCoupon } = useCartStore();
+    const { items, getTotalPrice, getDiscountAmount, appliedCoupon, applyCoupon, removeCoupon, couponError, clearCouponError } = useCartStore();
     const { isOpen } = useShopStatus();
 
     // Stats - with Persistence
@@ -319,35 +319,50 @@ export default function CheckoutPage() {
                         {/* COUPON SECTION */}
                         <div className="mb-4">
                             {!appliedCoupon ? (
-                                <div className="flex gap-2">
-                                    <input
-                                        type="text"
-                                        placeholder="CÓDIGO"
-                                        value={couponCode}
-                                        onChange={(e) => setCouponCode(e.target.value.toUpperCase().replace(/\s/g, ''))}
-                                        className="flex-1 bg-gray-50 border border-gray-200 rounded-lg px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-primary/20"
-                                    />
-                                    <button
-                                        onClick={() => {
-                                            if (couponCode) applyCoupon(couponCode);
-                                        }}
-                                        disabled={!couponCode}
-                                        className="bg-gray-900 text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-black transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                                    >
-                                        Aplicar
-                                    </button>
-                                </div>
+                                <>
+                                    <div className="flex gap-2">
+                                        <input
+                                            type="text"
+                                            placeholder="CÓDIGO"
+                                            value={couponCode}
+                                            onChange={(e) => {
+                                                setCouponCode(e.target.value.toUpperCase().replace(/\s/g, ''));
+                                                if (couponError) clearCouponError();
+                                            }}
+                                            className="flex-1 bg-gray-50 border border-gray-200 rounded-lg px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-primary/20"
+                                        />
+                                        <button
+                                            onClick={() => {
+                                                if (couponCode) applyCoupon(couponCode);
+                                            }}
+                                            disabled={!couponCode}
+                                            className="bg-gray-900 text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-black transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                                        >
+                                            Aplicar
+                                        </button>
+                                    </div>
+                                    {couponError && (
+                                        <p className="text-red-500 text-xs mt-1.5 font-medium">{couponError}</p>
+                                    )}
+                                </>
                             ) : (
-                                <div className="bg-green-50 border border-green-200 rounded-lg p-3 flex justify-between items-center text-sm">
-                                    <span className="text-green-700 font-medium flex items-center gap-1">
-                                        🏷 {appliedCoupon.code} aplicado
-                                    </span>
-                                    <button
-                                        onClick={removeCoupon}
-                                        className="text-gray-400 hover:text-red-500"
-                                    >
-                                        <X size={16} />
-                                    </button>
+                                <div className="space-y-1">
+                                    <div className="bg-green-50 border border-green-200 rounded-lg p-3 flex justify-between items-center text-sm">
+                                        <span className="text-green-700 font-medium flex items-center gap-1">
+                                            🏷 {appliedCoupon.code} aplicado
+                                        </span>
+                                        <button
+                                            onClick={removeCoupon}
+                                            className="text-gray-400 hover:text-red-500"
+                                        >
+                                            <X size={16} />
+                                        </button>
+                                    </div>
+                                    {appliedCoupon.minOrderAmount > 0 && (
+                                        <p className="text-xs text-gray-400 pl-1">
+                                            Mínimo de pedido: ${appliedCoupon.minOrderAmount.toLocaleString('es-CL')}
+                                        </p>
+                                    )}
                                 </div>
                             )}
                         </div>

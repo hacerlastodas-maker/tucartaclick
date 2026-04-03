@@ -12,6 +12,7 @@ interface CartState {
 
     // Coupon State
     appliedCoupon: Coupon | null;
+    couponError: string | null;
 
     addToCart: (product: Product, modifiers: Modifier[], quantity?: number) => void;
     updateItemQuantity: (id: string, modifiers: Modifier[], quantity: number) => void;
@@ -26,6 +27,7 @@ interface CartState {
     closeCart: () => void; // NEW
     applyCoupon: (code: string) => void;
     removeCoupon: () => void;
+    clearCouponError: () => void;
 
     getTotalPrice: () => number;
     getDiscountAmount: () => number;
@@ -54,6 +56,7 @@ export const useCartStore = create<CartState>()((set, get) => ({
     isDrawerOpen: false,
     isCartOpen: false, // Fix: Initialize new state
     appliedCoupon: null,
+    couponError: null,
 
     addToCart: (product, modifiers, quantity = 1) => {
         set((state) => {
@@ -162,12 +165,26 @@ export const useCartStore = create<CartState>()((set, get) => ({
     applyCoupon: (code) => {
         const normalizedCode = code.toUpperCase().trim();
         const coupon = COUPONS.find(c => c.code === normalizedCode);
-        if (coupon) {
-            set({ appliedCoupon: coupon });
+        if (!coupon) {
+            set({ couponError: 'Cupón no válido' });
+            return;
         }
+
+        // Check minimum order amount
+        if (coupon.minOrderAmount > 0) {
+            const subtotal = get().getTotalPrice();
+            if (subtotal < coupon.minOrderAmount) {
+                const formatted = coupon.minOrderAmount.toLocaleString('es-CL');
+                set({ couponError: `Este cupón requiere un pedido mínimo de $${formatted}` });
+                return;
+            }
+        }
+
+        set({ appliedCoupon: coupon, couponError: null });
     },
 
-    removeCoupon: () => set({ appliedCoupon: null }),
+    removeCoupon: () => set({ appliedCoupon: null, couponError: null }),
+    clearCouponError: () => set({ couponError: null }),
 
     getTotalPrice: () => {
         const { items } = get();
@@ -183,6 +200,11 @@ export const useCartStore = create<CartState>()((set, get) => ({
         if (!appliedCoupon) return 0;
 
         const subtotal = getTotalPrice();
+
+        // If coupon has a minimum and subtotal is below it, no discount
+        if (appliedCoupon.minOrderAmount > 0 && subtotal < appliedCoupon.minOrderAmount) {
+            return 0;
+        }
 
         if (appliedCoupon.type === 'FIXED') {
             return Math.min(appliedCoupon.value, subtotal); // Cannot discount more than total

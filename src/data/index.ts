@@ -23,7 +23,7 @@ interface ConfigData {
         textColor: string;
     };
     deliveryZones: { name: string; price: number }[];
-    coupons: Coupon[];
+    coupons: (Omit<Coupon, 'minOrderAmount'> & { minOrderAmount?: number })[];
 }
 
 // Cast import
@@ -43,7 +43,11 @@ export const CATEGORIES: Category[] = uniqueCategoryNames.map(cat => ({
 
 // --- COUPONS ---
 // Export coupons from config, defaulting to empty if missing
-export const COUPONS: Coupon[] = rawConfig.coupons || [];
+// Ensure minOrderAmount defaults to 0 for backward compatibility
+export const COUPONS: Coupon[] = (rawConfig.coupons || []).map(c => ({
+    ...c,
+    minOrderAmount: c.minOrderAmount ?? 0
+}));
 
 // --- SHOP CONFIG ADAPTER ---
 // We map the JSON structure to the app's internal SHOP_CONFIG structure

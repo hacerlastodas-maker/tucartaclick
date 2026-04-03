@@ -84,4 +84,6 @@ export interface Coupon {
     code: string;
     type: CouponType;
     value: number;
+    /** Minimum order subtotal required for this coupon to apply. 0 = no minimum. */
+    minOrderAmount: number;
 }
