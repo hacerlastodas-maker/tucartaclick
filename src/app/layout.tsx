@@ -19,6 +19,10 @@ import { SHOP_CONFIG } from "@/data";
 export const metadata: Metadata = {
   title: SHOP_CONFIG.name,
   description: `Menú en línea interactivo de ${SHOP_CONFIG.name}`,
+  icons: {
+    icon: SHOP_CONFIG.logoUrl,
+    apple: SHOP_CONFIG.logoUrl,
+  },
 };
 
 export default function RootLayout({

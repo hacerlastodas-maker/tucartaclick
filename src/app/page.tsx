@@ -53,15 +53,15 @@ export default function Home() {
         {searchQuery && filteredProducts.length === 0 && !isLoading ? (
           <div className="flex flex-col items-center justify-center py-12 text-center">
             {/* Icon Sutil */}
-            <div className="bg-gray-100 p-4 rounded-full mb-4">
-              <SearchX className="w-8 h-8 text-gray-400" />
+            <div className="bg-white/10 p-4 rounded-full mb-4">
+              <SearchX className="w-8 h-8 text-white/60" />
             </div>
 
             {/* Mensaje */}
-            <p className="text-gray-900 text-lg font-medium mb-1">
+            <p className="text-white text-lg font-medium mb-1">
               No encontramos "{searchQuery}" 🥢
             </p>
-            <p className="text-gray-500 text-sm mb-6">
+            <p className="text-gray-300 text-sm mb-6">
               Intenta buscar otra cosa o ve nuestros Rolls favoritos.
             </p>
 
