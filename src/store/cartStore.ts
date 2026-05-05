@@ -31,6 +31,7 @@ interface CartState {
 
     getTotalPrice: () => number;
     getDiscountAmount: () => number;
+    getPromoDiscountAmount: () => number; // NEW: 3x2 Promo
     getFinalPrice: () => number;
     getTotalItems: () => number;
 }
@@ -196,10 +197,11 @@ export const useCartStore = create<CartState>()((set, get) => ({
     },
 
     getDiscountAmount: () => {
-        const { appliedCoupon, getTotalPrice } = get();
+        const { appliedCoupon, getTotalPrice, getPromoDiscountAmount } = get();
         if (!appliedCoupon) return 0;
 
         const subtotal = getTotalPrice();
+        const subtotalAfterPromo = Math.max(0, subtotal - getPromoDiscountAmount());
 
         // If coupon has a minimum and subtotal is below it, no discount
         if (appliedCoupon.minOrderAmount > 0 && subtotal < appliedCoupon.minOrderAmount) {
@@ -207,16 +209,46 @@ export const useCartStore = create<CartState>()((set, get) => ({
         }
 
         if (appliedCoupon.type === 'FIXED') {
-            return Math.min(appliedCoupon.value, subtotal); // Cannot discount more than total
+            return Math.min(appliedCoupon.value, subtotalAfterPromo); // Cannot discount more than total
         } else if (appliedCoupon.type === 'PERCENT') {
-            return Math.round(subtotal * (appliedCoupon.value / 100));
+            return Math.round(subtotalAfterPromo * (appliedCoupon.value / 100));
         }
         return 0;
     },
 
+    getPromoDiscountAmount: () => {
+        // Only active on Tuesdays (getDay() === 2)
+        if (new Date().getDay() !== 2) return 0;
+        
+        const { items } = get();
+        const rollsAutorItems = items.filter(item => item.category === 'Rolls Autor');
+        if (rollsAutorItems.length === 0) return 0;
+
+        const unitPrices: number[] = [];
+        rollsAutorItems.forEach(item => {
+            const itemBasePrice = item.price;
+            const modifiersCost = item.modifiers.reduce((sum, mod) => sum + (mod.price * mod.quantity), 0);
+            const unitPrice = itemBasePrice + modifiersCost;
+            for (let i = 0; i < item.quantity; i++) {
+                unitPrices.push(unitPrice);
+            }
+        });
+
+        // Sort descending
+        unitPrices.sort((a, b) => b - a);
+
+        // Every 3rd item is free
+        let promoDiscount = 0;
+        for (let i = 2; i < unitPrices.length; i += 3) {
+            promoDiscount += unitPrices[i];
+        }
+
+        return promoDiscount;
+    },
+
     getFinalPrice: () => {
-        const { getTotalPrice, getDiscountAmount } = get();
-        return Math.max(0, getTotalPrice() - getDiscountAmount());
+        const { getTotalPrice, getDiscountAmount, getPromoDiscountAmount } = get();
+        return Math.max(0, getTotalPrice() - getDiscountAmount() - getPromoDiscountAmount());
     },
 
     getTotalItems: () => {

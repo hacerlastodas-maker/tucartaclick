@@ -13,6 +13,7 @@ interface WhatsAppLinkParams {
     paymentMethod: string;
     appliedCoupon?: Coupon | null;
     discountAmount?: number;
+    promoDiscountAmount?: number;
 }
 
 export function generateWhatsAppLink({
@@ -26,7 +27,8 @@ export function generateWhatsAppLink({
     deliveryZoneName,
     paymentMethod,
     appliedCoupon,
-    discountAmount
+    discountAmount,
+    promoDiscountAmount
 }: WhatsAppLinkParams) {
     const { whatsappNumber, name: shopName } = SHOP_CONFIG;
 
@@ -48,6 +50,10 @@ export function generateWhatsAppLink({
 
     if (appliedCoupon && discountAmount) {
         message += `🏷 *Cupón aplicado:* ${appliedCoupon.code} (-$${discountAmount.toLocaleString('es-CL')})\n`;
+    }
+
+    if (promoDiscountAmount && promoDiscountAmount > 0) {
+        message += `🎁 *Promo 3x2:* (-$${promoDiscountAmount.toLocaleString('es-CL')})\n`;
     }
 
     if (deliveryType === 'delivery') {

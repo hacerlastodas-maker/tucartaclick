@@ -16,7 +16,7 @@ type PaymentMethod = 'Transferencia' | 'Efectivo' | 'Tarjeta (Débito/Crédito)'
 
 export default function CheckoutPage() {
     const router = useRouter();
-    const { items, getTotalPrice, getDiscountAmount, appliedCoupon, applyCoupon, removeCoupon, couponError, clearCouponError } = useCartStore();
+    const { items, getTotalPrice, getDiscountAmount, getPromoDiscountAmount, appliedCoupon, applyCoupon, removeCoupon, couponError, clearCouponError } = useCartStore();
     const { isOpen } = useShopStatus();
 
     // Stats - with Persistence
@@ -64,10 +64,11 @@ export default function CheckoutPage() {
     // Calculations
     const cartTotal = getTotalPrice();
     const discountAmount = getDiscountAmount();
+    const promoDiscountAmount = getPromoDiscountAmount();
     const deliveryCost = deliveryType === 'delivery' && selectedZoneIndex !== -1
         ? DELIVERY_ZONES[selectedZoneIndex].price
         : 0;
-    const finalTotal = Math.max(0, cartTotal - discountAmount + deliveryCost);
+    const finalTotal = Math.max(0, cartTotal - discountAmount - promoDiscountAmount + deliveryCost);
 
     const handleConfirm = () => {
         if (!name.trim()) return alert('Por favor ingresa tu nombre');
@@ -94,7 +95,8 @@ export default function CheckoutPage() {
             deliveryZoneName: deliveryType === 'delivery' && selectedZoneIndex !== -1 ? DELIVERY_ZONES[selectedZoneIndex].name : undefined,
             paymentMethod,
             appliedCoupon,
-            discountAmount
+            discountAmount,
+            promoDiscountAmount
         });
         window.open(link, '_blank');
     };
@@ -376,6 +378,12 @@ export default function CheckoutPage() {
                                 <div className="flex justify-between text-green-600 text-sm font-medium">
                                     <span>Cupón ({appliedCoupon.code})</span>
                                     <span>-{formatPrice(discountAmount)}</span>
+                                </div>
+                            )}
+                            {promoDiscountAmount > 0 && (
+                                <div className="flex justify-between text-orange-600 text-sm font-medium">
+                                    <span>Promo 3x2 (Rolls Autor)</span>
+                                    <span>-{formatPrice(promoDiscountAmount)}</span>
                                 </div>
                             )}
                             <div className="flex justify-between text-gray-600 text-sm">

@@ -199,11 +199,22 @@ async function fetchProducts(optionsMap) {
         const text = await res.text();
         const rows = Papa.parse(text, { header: true, skipEmptyLines: true }).data;
 
+        const seenIds = new Set();
+
         const products = rows.map(row => {
             const status = clean(row.is_active || row.status || "TRUE").toLowerCase();
             if (status === 'false' || status === 'disabled') return null;
 
-            const id = clean(row.id) || `prod-${Math.random().toString(36).substr(2, 9)}`;
+            let id = clean(row.id) || `prod-${Math.random().toString(36).substr(2, 9)}`;
+            
+            // Ensure ID is unique
+            let originalId = id;
+            let counter = 1;
+            while (seenIds.has(id)) {
+                id = `${originalId}-${counter}`;
+                counter++;
+            }
+            seenIds.add(id);
 
             let extended_options = [];
             if (optionsMap && optionsMap[id]) {

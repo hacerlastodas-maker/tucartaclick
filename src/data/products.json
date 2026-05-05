@@ -1,5 +1,61 @@
 [
   {
+    "id": "promo-lunes",
+    "name": "Promo Lunes",
+    "price": 5990,
+    "description": "10 cortes Hot: (Pollo - Queso - Palta) + Bebida 220CC",
+    "imageUrl": "https://i.postimg.cc/j5n4skYQ/LUNES.png",
+    "category": "Promos del Día",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "promo-martes",
+    "name": "Promo Martes",
+    "price": 0,
+    "description": "3x2 en Rolls de la Carta",
+    "imageUrl": "https://i.postimg.cc/RZf5Q8y4/clipboard-image-1777990981.png",
+    "category": "Promos del Día",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "promo-miercoles",
+    "name": "Promo 1 Miércoles",
+    "price": 9000,
+    "description": "Poke de Pollo: (Pollo salteado, pimentón salteado, queso en cubos, pepino, zanahoria en hilo y cebollín) + Bebida 220CC",
+    "imageUrl": "https://i.postimg.cc/26L7zXN0/MIERCOLES-2.png",
+    "category": "Promos del Día",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "promo-miercoles-1",
+    "name": "Promo 2 Miércoles",
+    "price": 13990,
+    "description": "2 Sushiburgers de Pollo: (Pollo salteado - Palta y Arroz con cubierta crocante)",
+    "imageUrl": "https://i.postimg.cc/wvRQ6bY0/MIERCOLES-1.png",
+    "category": "Promos del Día",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
     "id": "arrollado-primavera",
     "name": "Arrollado Primavera (5 un)",
     "price": 3500,
@@ -10,7 +66,12 @@
     "isActive": true,
     "isFeatured": false,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-4"
     ],
     "modifiers": [],
     "extended_options": []
@@ -26,7 +87,12 @@
     "isActive": true,
     "isFeatured": false,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-5"
     ],
     "modifiers": [],
     "extended_options": [
@@ -61,7 +127,12 @@
     "isActive": true,
     "isFeatured": false,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-6"
     ],
     "modifiers": [],
     "extended_options": [
@@ -102,7 +173,12 @@
     "isActive": true,
     "isFeatured": false,
     "relatedIds": [
-      "papas-fritas"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-7"
     ],
     "modifiers": [],
     "extended_options": []
@@ -118,7 +194,12 @@
     "isActive": true,
     "isFeatured": true,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-8"
     ],
     "modifiers": [],
     "extended_options": []
@@ -133,7 +214,14 @@
     "stock": 30,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-9"
+    ],
     "modifiers": [],
     "extended_options": []
   },
@@ -148,7 +236,12 @@
     "isActive": true,
     "isFeatured": false,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-10"
     ],
     "modifiers": [],
     "extended_options": [
@@ -179,7 +272,12 @@
     "isActive": true,
     "isFeatured": false,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-11"
     ],
     "modifiers": [],
     "extended_options": [
@@ -210,7 +308,12 @@
     "isActive": true,
     "isFeatured": false,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-12"
     ],
     "modifiers": [],
     "extended_options": [
@@ -245,531 +348,12 @@
     "isActive": true,
     "isFeatured": true,
     "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "ceviche-camaron",
-    "name": "Ceviche de Camarón",
-    "price": 10500,
-    "description": "Camarón, palta, pimentón, cebolla morada, cilantro y leche de tigre.",
-    "imageUrl": "https://i.postimg.cc/d1xdZ2wJ/CEVICHE-CAMARON.png",
-    "category": "Ceviches",
-    "stock": 20,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "ceviche-maki",
-    "name": "Ceviche Maki",
-    "price": 10990,
-    "description": "Salmón, palta, pimentón, cebolla morada, cilantro y leche de tigre.",
-    "imageUrl": "https://i.postimg.cc/DwYsTGB3/874d4db2-e316-43b9-9c68-476dc7bca991.jpg",
-    "category": "Ceviches",
-    "stock": 20,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "ceviche-mixto",
-    "name": "Ceviche Mixto",
-    "price": 11990,
-    "description": "Lomo de salmón, tilapia, camarón, kanikama, pulpo, cebolla y cilantro.",
-    "imageUrl": "https://i.postimg.cc/855MCKQF/CEVICHE-MIXTO.png",
-    "category": "Ceviches",
-    "stock": 20,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "trilogia-ceviche",
-    "name": "Trilogía de Ceviche",
-    "price": 20990,
-    "description": "Tres ceviches: Peruano (tilapia), Salmón (leche tigre) y Camarón-Mango.",
-    "imageUrl": "https://i.postimg.cc/25TnrptB/TRILOGIA-CEVICHES.png",
-    "category": "Ceviches",
-    "stock": 15,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "tablas-40"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-lomo-saltado",
-    "name": "Lomo Saltado Roll",
-    "price": 9990,
-    "description": "Envuelto en panko, relleno de queso y cebollín, con topping de lomo saltado.",
-    "imageUrl": "https://i.postimg.cc/yYJjjNb2/ROLL-LOMO-SALTADO.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-acevichado",
-    "name": "Roll Acevichado",
-    "price": 9500,
-    "description": "Camarón panko, queso, palta. Topping de ceviche.",
-    "imageUrl": "https://i.postimg.cc/0NZ7Pg4M/ROLL-ACEVICHADO.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": [
-      {
-        "name": "Elige Envoltura",
-        "max_qty": 1,
-        "items": [
-          {
-            "name": "Panko",
-            "price": 0
-          },
-          {
-            "name": "Palta",
-            "price": 0
-          },
-          {
-            "name": "Sésamo",
-            "price": 0
-          },
-          {
-            "name": "Ciboulette",
-            "price": 0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "roll-tropical",
-    "name": "Tropical Roll",
-    "price": 8500,
-    "description": "Pollo panko, queso, cebollín, envuelto en plátano maduro.",
-    "imageUrl": "https://i.postimg.cc/Xvx94MPB/TROPICAL-ROLLS.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-dragon",
-    "name": "Dragon Roll",
-    "price": 8000,
-    "description": "Pollo teriyaki, queso, palta, cebollín, envuelto en panko. Salsas queso, picante, unagi.",
-    "imageUrl": "https://i.postimg.cc/Ssv8Y6kK/DRAGON-ROLLS-2.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-sensation",
-    "name": "Sensation Roll",
-    "price": 9000,
-    "description": "Camarón panko, queso, palta, envuelto en salmón, salsa spicy flameada y maracuyá.",
-    "imageUrl": "https://i.postimg.cc/4NKPP303/SENSATION-ROLLS.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-alaska",
-    "name": "Alaska Special",
-    "price": 9500,
-    "description": "Salmón, queso, palta. Envuelto en palta y salmón.",
-    "imageUrl": "https://i.postimg.cc/7hJz35LD/ALASKA-ROLLS.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-chicken-furikake",
-    "name": "Chicken Furikake",
-    "price": 8000,
-    "description": "Pollo panko, queso. Envoltura ciboulette/furikake, topping cebolla crunch.",
-    "imageUrl": "https://i.postimg.cc/W3HrqGTb/CHIKEN-FURIKAKE-2.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-dinamita",
-    "name": "Dinamita Roll",
-    "price": 8900,
-    "description": "Salmón panko, queso, palta. Envuelto en queso, topping ensalada surimi.",
-    "imageUrl": "https://i.postimg.cc/tTMPn3pJ/DINAMITA-2.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-fuji",
-    "name": "Fuji Roll",
-    "price": 8500,
-    "description": "Palta, queso, cebollín. Envuelto en panko, topping camarón furay y salsa fuji.",
-    "imageUrl": "https://i.postimg.cc/rmPWR1M0/FUJI-ROLLS.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-tiger",
-    "name": "Tiger Roll",
-    "price": 8500,
-    "description": "Camarón, queso, palta. Envuelto en plátano maduro, salsa queso fundido.",
-    "imageUrl": "https://i.postimg.cc/7YpVWkv6/TIGER-ROLL.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "roll-azumi",
-    "name": "Azumi Roll",
-    "price": 8990,
-    "description": "Kanikama crunch, queso, palta. Topping ensalada surimi y salsas.",
-    "imageUrl": "https://i.postimg.cc/NF2X6K0B/AZUMI-ROLLS.png",
-    "category": "Rolls Autor",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "poke-vegetariano",
-    "name": "Poke Vegetariano",
-    "price": 7500,
-    "description": "Pepino, cebollín, pimentón, champiñón, cebolla, queso crema.",
-    "imageUrl": "https://i.postimg.cc/mgYQp1y4/POKE-VEGETARIANO.png",
-    "category": "Pokes",
-    "stock": 30,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "poke-pollo",
-    "name": "Poke de Pollo",
-    "price": 7990,
-    "description": "Pollo salteado, pimentón, queso, pepino, zanahoria, cebollín.",
-    "imageUrl": "https://i.postimg.cc/50WX4SvC/5651de86-2d4f-44f5-9b27-a878965cf5ae.jpg",
-    "category": "Pokes",
-    "stock": 30,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "poke-crunch",
-    "name": "Poke Crunch",
-    "price": 9500,
-    "description": "Pollo panko, camarón panko, queso, palta, cebollín.",
-    "imageUrl": "https://i.postimg.cc/jS0Hh4NJ/POKE-CRUNCH.png",
-    "category": "Pokes",
-    "stock": 30,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "poke-salmon",
-    "name": "Poke Salmón",
-    "price": 10990,
-    "description": "Salmón, zanahoria, palta, queso, cebollín.",
-    "imageUrl": "https://i.postimg.cc/fTYRnctz/e049231f-fa6d-4130-8285-d29abdd9e335.jpg",
-    "category": "Pokes",
-    "stock": 30,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "poke-neptuno",
-    "name": "Poke Neptuno",
-    "price": 12990,
-    "description": "Salmón, kanikama, camarón, queso, palta, zanahoria, wakame.",
-    "imageUrl": "https://i.postimg.cc/CxTG4sDk/POKE-NEPTUNO.png",
-    "category": "Pokes",
-    "stock": 30,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "sushi-burger",
-    "name": "Sushi Burger",
-    "price": 7500,
-    "description": "Base arroz, palta, cebollín, queso. Elige tu proteína.",
-    "imageUrl": "https://i.postimg.cc/sDBmm2Lv/SUSHI-BURGER.png",
-    "category": "Pokes",
-    "stock": 30,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "papas-fritas"
-    ],
-    "modifiers": [],
-    "extended_options": [
-      {
-        "name": "Elige Proteína",
-        "max_qty": 1,
-        "items": [
-          {
-            "name": "Champiñón",
-            "price": 0
-          },
-          {
-            "name": "Pollo",
-            "price": 500
-          },
-          {
-            "name": "Camarón Panko",
-            "price": 1490
-          },
-          {
-            "name": "Salmón",
-            "price": 2000
-          },
-          {
-            "name": "Mixta (Pollo y Camarón)",
-            "price": 4490
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ramen-shouyu",
-    "name": "Shouyu Ramen",
-    "price": 11990,
-    "description": "Caldo casa, fideos, cerdo, huevo ajitama, nori, maíz, cebolla, shitake.",
-    "imageUrl": "https://i.postimg.cc/R0vwkCgx/ramen-cerdo.png",
-    "category": "Ramen",
-    "stock": 20,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "ramen-miso-tori",
-    "name": "Miso Ramen Tori",
-    "price": 10990,
-    "description": "Caldo casa, fideos, pollo, huevo ajitama, nori, maíz, cebolla, shitake.",
-    "imageUrl": "https://i.postimg.cc/25Cnsj0D/ramen-pollo.png",
-    "category": "Ramen",
-    "stock": 20,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "ramen-miso-ebi",
-    "name": "Miso Ramen Ebi",
-    "price": 13000,
-    "description": "Caldo casa, fideos, camarón, huevo ajitama, nori, maíz, cebolla, shitake.",
-    "imageUrl": "https://i.postimg.cc/W4s0Bp5P/ramen-camaron.png",
-    "category": "Ramen",
-    "stock": 20,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "salteado-wok",
-    "name": "Salteado al Wok",
-    "price": 7990,
-    "description": "Vegetales frescos y arroz especial. Elige proteína.",
-    "imageUrl": "https://i.postimg.cc/MKc55GL8/SALTEADO-A-WOK-CON-PROTEINA(1).png",
-    "category": "Platos Calientes",
-    "stock": 30,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": [
-      {
-        "name": "Elige Proteína",
-        "max_qty": 1,
-        "items": [
-          {
-            "name": "Pollo",
-            "price": 0
-          },
-          {
-            "name": "Carne",
-            "price": 1000
-          },
-          {
-            "name": "Salmón",
-            "price": 4000
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "yakisoba",
-    "name": "Yakisoba",
-    "price": 8000,
-    "description": "Fideos japoneses, pimentón, zanahoria, cebollín, sésamo. Elige proteína.",
-    "imageUrl": "https://i.postimg.cc/1zMDsxdH/YAKISOBA-CAMARON.png",
-    "category": "Platos Calientes",
-    "stock": 30,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": [
-      {
-        "name": "Elige Variedad",
-        "max_qty": 1,
-        "items": [
-          {
-            "name": "Pollo",
-            "price": 0
-          },
-          {
-            "name": "Camarón",
-            "price": 0
-          },
-          {
-            "name": "Vegetariano",
-            "price": 0
-          },
-          {
-            "name": "Fusión (Pollo/Cam/Calamar)",
-            "price": 3990
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "lomo-saltado",
-    "name": "Lomo Saltado",
-    "price": 14000,
-    "description": "Lomo de vacuno salteado, cebolla, tomate, soya. Incluye papas y arroz.",
-    "imageUrl": "https://i.postimg.cc/fLrXScDm/LOMO-SALTADO.png",
-    "category": "Platos Calientes",
-    "stock": 30,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-13"
     ],
     "modifiers": [],
     "extended_options": []
@@ -785,7 +369,12 @@
     "isActive": true,
     "isFeatured": true,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-14"
     ],
     "modifiers": [],
     "extended_options": [
@@ -904,7 +493,12 @@
     "isActive": true,
     "isFeatured": false,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-15"
     ],
     "modifiers": [],
     "extended_options": [
@@ -973,146 +567,6 @@
     ]
   },
   {
-    "id": "tabla-40-clasica",
-    "name": "Tabla 40 Clásica",
-    "price": 15990,
-    "description": "10 cortes en sésamo (Kanikama - Queso Cebollin), 10 cortes en Ciboulette (Camaron panko - queso - palta) \n10 cortes en panko (Pollo - Queso - Palta)\n10 cortes en panko (Pollo - Queso - Cebollín)",
-    "imageUrl": "https://i.postimg.cc/MKnrRpw8/cec63c7b-d841-4244-a119-6ccfb34b60da.jpg",
-    "category": "Tablas",
-    "stock": 20,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "tabla-50-clasica",
-    "name": "Tabla 50 Clásica",
-    "price": 18990,
-    "description": "10 Cortes en Palta: (Camarón - Queso - Cebollín)\n10 Cortes en Sésamo: (Kanikama, queso, Cebollín)\n10 Cortes en Ciboulette: (Queso, Palta, Pimentón) \n20 Cortés en Panko: (Pollo - Queso - palta) (Champiñón, Queso, Cebollín)",
-    "imageUrl": "https://i.postimg.cc/3N79vpM5/45929add-549c-4861-b5e4-33e19c320b95.jpg",
-    "category": "Tablas",
-    "stock": 20,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "tabla-hot-30",
-    "name": "Tabla Hot (30 piezas)",
-    "price": 14990,
-    "description": "(Camarón, Queso, Cebollín) - (Pollo, Queso, Palta) - (Pollo, Queso, Pimentón) + 3 Ebbi Furai",
-    "imageUrl": "https://i.postimg.cc/tJV86zQk/f3468f5e-601e-405d-840e-3d194c185a68.jpg",
-    "category": "Tablas",
-    "stock": 20,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "tabla-100-clasica",
-    "name": "Tabla 100 Clásica",
-    "price": 38500,
-    "description": "El festín total. \n10 cortes en Palta: camaron panko queso cebollin \n10 cortes en Sésamo: Pollo panko queso cebollin\n10 cortes en Hosomaki : salmon palta \n10 cortes en Ciboulette: queso palta pimentón \n10 cortes Hosomaki: camaron paltA\n10 cortes  en Queso Crema: Kanikama queso cebollin \n40 cortes en Panko (calientes)\n10 Cortes Fuji : Queso, Palta, Cebollín con Topping de Camarón Furai y Salsa Fuji\nPollo - Queso - Palta / Pollo - Queso - Cebollin / Champiñón - Queso - Cebollin",
-    "imageUrl": "https://i.postimg.cc/4NHXvzbn/6e6c71dc-488f-429e-b0a6-d331d8d88505.jpg",
-    "category": "Tablas",
-    "stock": 10,
-    "isActive": true,
-    "isFeatured": true,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "barco-fusion-30",
-    "name": "Barco Fusión (30 pz)",
-    "price": 19990,
-    "description": "10 Dragon, 10 Inka, 10 California.",
-    "imageUrl": "https://i.postimg.cc/4NWH6tCj/05c2b9ef-5a5f-4c05-8db2-f41860b92499.jpg",
-    "category": "Tablas",
-    "stock": 10,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "barco-fusion-premium",
-    "name": "Barco Premium (30 pz)",
-    "price": 22990,
-    "description": "10 Fuji, 10 Acevichado, 10 Dinamita.",
-    "imageUrl": "https://i.postimg.cc/3NB4b0dP/a10b66f7-698e-407c-bbab-2db549fa8a7e.jpg",
-    "category": "Tablas",
-    "stock": 10,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "barco-clasico-65",
-    "name": "Barco Clásico (65 pz)",
-    "price": 34000,
-    "description": "65 piezas variadas + 5 Gyosas mixtas.",
-    "imageUrl": "https://i.postimg.cc/yWqZv7J4/BARCO-65-PIEZAS.png",
-    "category": "Tablas",
-    "stock": 10,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [
-      "bebida-lata"
-    ],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "combo-dinner",
-    "name": "Combo Dinner",
-    "price": 7990,
-    "description": "10 piezas (5 palta, 5 panko) + Bebida. Solo almuerzo. HORARIO: 13:00pm - 16:00pm",
-    "imageUrl": "https://i.postimg.cc/0ytGyF5T/b93e7fcc-f116-4530-b8f6-55d5923e711a.jpg",
-    "category": "Promos",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
-    "id": "combo-sushi-burger",
-    "name": "Combo Sushi Burger",
-    "price": 11990,
-    "description": "Sushi Burger Pollo + Papas + Bebida.",
-    "imageUrl": "https://i.postimg.cc/T3VrN5JT/PROMO-SUSHI-BURGER-BEBIDA.png",
-    "category": "Promos",
-    "stock": 50,
-    "isActive": true,
-    "isFeatured": false,
-    "relatedIds": [],
-    "modifiers": [],
-    "extended_options": []
-  },
-  {
     "id": "arma-tu-roll-sin-arroz",
     "name": "Arma Roll Sin Arroz (8 un)",
     "price": 9990,
@@ -1123,7 +577,12 @@
     "isActive": true,
     "isFeatured": false,
     "relatedIds": [
-      "bebida-lata"
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-16"
     ],
     "modifiers": [],
     "extended_options": [
@@ -1232,6 +691,938 @@
     ]
   },
   {
+    "id": "roll-lomo-saltado",
+    "name": "Lomo Saltado Roll",
+    "price": 9990,
+    "description": "Envuelto en panko, relleno de queso y cebollín, con topping de lomo saltado.",
+    "imageUrl": "https://i.postimg.cc/yYJjjNb2/ROLL-LOMO-SALTADO.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-17"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-acevichado",
+    "name": "Roll Acevichado",
+    "price": 9500,
+    "description": "Camarón panko, queso, palta. Topping de ceviche.",
+    "imageUrl": "https://i.postimg.cc/0NZ7Pg4M/ROLL-ACEVICHADO.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-18"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Envoltura",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Panko",
+            "price": 0
+          },
+          {
+            "name": "Palta",
+            "price": 0
+          },
+          {
+            "name": "Sésamo",
+            "price": 0
+          },
+          {
+            "name": "Ciboulette",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "roll-tropical",
+    "name": "Tropical Roll",
+    "price": 8500,
+    "description": "Pollo panko, queso, cebollín, envuelto en plátano maduro.",
+    "imageUrl": "https://i.postimg.cc/Xvx94MPB/TROPICAL-ROLLS.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-19"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-dragon",
+    "name": "Dragon Roll",
+    "price": 8000,
+    "description": "Pollo teriyaki, queso, palta, cebollín, envuelto en panko. Salsas queso, picante, unagi.",
+    "imageUrl": "https://i.postimg.cc/Ssv8Y6kK/DRAGON-ROLLS-2.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-20"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-sensation",
+    "name": "Sensation Roll",
+    "price": 9000,
+    "description": "Camarón panko, queso, palta, envuelto en salmón, salsa spicy flameada y maracuyá.",
+    "imageUrl": "https://i.postimg.cc/4NKPP303/SENSATION-ROLLS.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-21"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-alaska",
+    "name": "Alaska Special",
+    "price": 9500,
+    "description": "Salmón, queso, palta. Envuelto en palta y salmón.",
+    "imageUrl": "https://i.postimg.cc/7hJz35LD/ALASKA-ROLLS.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-22"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-chicken-furikake",
+    "name": "Chicken Furikake",
+    "price": 8000,
+    "description": "Pollo panko, queso. Envoltura ciboulette/furikake, topping cebolla crunch.",
+    "imageUrl": "https://i.postimg.cc/W3HrqGTb/CHIKEN-FURIKAKE-2.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-23"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-dinamita",
+    "name": "Dinamita Roll",
+    "price": 8900,
+    "description": "Salmón panko, queso, palta. Envuelto en queso, topping ensalada surimi.",
+    "imageUrl": "https://i.postimg.cc/tTMPn3pJ/DINAMITA-2.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-24"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-fuji",
+    "name": "Fuji Roll",
+    "price": 8500,
+    "description": "Palta, queso, cebollín. Envuelto en panko, topping camarón furay y salsa fuji.",
+    "imageUrl": "https://i.postimg.cc/rmPWR1M0/FUJI-ROLLS.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-25"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-tiger",
+    "name": "Tiger Roll",
+    "price": 8500,
+    "description": "Camarón, queso, palta. Envuelto en plátano maduro, salsa queso fundido.",
+    "imageUrl": "https://i.postimg.cc/7YpVWkv6/TIGER-ROLL.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-26"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "roll-azumi",
+    "name": "Azumi Roll",
+    "price": 8990,
+    "description": "Kanikama crunch, queso, palta. Topping ensalada surimi y salsas.",
+    "imageUrl": "https://i.postimg.cc/NF2X6K0B/AZUMI-ROLLS.png",
+    "category": "Rolls Autor",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-27"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-hot-30",
+    "name": "Tabla Hot (30 piezas)",
+    "price": 14990,
+    "description": "(Camarón, Queso, Cebollín) - (Pollo, Queso, Palta) - (Pollo, Queso, Pimentón) + 3 Ebbi Furai",
+    "imageUrl": "https://i.postimg.cc/tJV86zQk/f3468f5e-601e-405d-840e-3d194c185a68.jpg",
+    "category": "Tablas",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-30"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-40-clasica",
+    "name": "Tabla 40 Clásica",
+    "price": 15990,
+    "description": "10 cortes en sésamo (Kanikama - Queso Cebollin)\n10 cortes en Ciboulette (Camaron panko - queso - palta) \n10 cortes en panko (Pollo - Queso - Palta)\n10 cortes en panko (Pollo - Queso - Cebollín)",
+    "imageUrl": "https://i.postimg.cc/MKnrRpw8/cec63c7b-d841-4244-a119-6ccfb34b60da.jpg",
+    "category": "Tablas",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-28"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-40-especial",
+    "name": "Tabla 40 Especial",
+    "price": 17990,
+    "description": "10 cortes en palta (Kanikama - Queso - Cebollin)\n10 cortes en Ciboulette (Camarón - Queso - Palta)\n10 cortes en Panko (Pollo Teriyaki - Queso - Pimentón)\n10 cortes Dragon Roll (Pollo Teriyaki - Queso - Palta - Cebollín - Envuelto en panko - Bañado en salsa de queso con toque de salsa picante y unagui)",
+    "imageUrl": "",
+    "category": "Tablas",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-40-super-premium",
+    "name": "Tabla 40 Super Premium",
+    "price": 19990,
+    "description": "10 cortes en palta (Camarón - Queso - Cebollin)\n10 cortes en Platano (Pollo - Queso - Palta)\n10 cortes en Dinamita (Champiñon - Queso - Pimentón - Con topping de Surimi)\n10 cortes Caliente (Pollo - Queso - Cebollín)",
+    "imageUrl": "https://i.postimg.cc/LXg3H0FC/Tabla-40-super-premium.jpg",
+    "category": "Tablas",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-50-clasica",
+    "name": "Tabla 50 Clásica",
+    "price": 18990,
+    "description": "10 Cortes en Palta: (Camarón - Queso - Cebollín)\n10 Cortes en Sésamo: (Kanikama, Queso, Cebollín)\n10 Cortes en Ciboulette: (Queso, Palta, Pimentón) \n20 Cortés en Panko: (Pollo - Queso - Palta) (Champiñón, Queso, Cebollín)",
+    "imageUrl": "https://i.postimg.cc/3N79vpM5/45929add-549c-4861-b5e4-33e19c320b95.jpg",
+    "category": "Tablas",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-29"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-60-clasica",
+    "name": "Tabla 60 Clásica",
+    "price": 21990,
+    "description": "10 Cortes en Palta: (Camarón - Queso - Cebollín)\n10 Cortes en Sésamo: (Kanikama - Queso - Cebollín)\n10 Cortes en Ciboulette: (Queso - Palta - Pimentón) \n30 Cortes Hot: (Pollo - Queso - Palta) (Champiñón, Queso, Cebollín) (Pollo - Queso - Cebollín)",
+    "imageUrl": "https://i.postimg.cc/DZ4P2Y3p/TABLA-60-CLASICA-(1).png",
+    "category": "Tablas",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-60-especial-mixta",
+    "name": "Tabla 60 Especial Mixta",
+    "price": 28000,
+    "description": "10 Cortes en Palta: (Salmón - Queso - Cebollín)\n5 Cortes en Sésamo: (Kanikama - Queso - Cebollín)\n5 Cortes en Ciboulette: (Camarón - Queso - Palta)\n5 Cortes en Sake: (Camarón - Queso - Palta) \n5 Cortes en Queso: (Kanikama - Queso - Cebollín) \n30 Cortes Caliente en Panko: (Pollo - Queso - Pimentón) (Champiñón, Queso, Cebollín) (Pollo - Queso - Palta)",
+    "imageUrl": "",
+    "category": "Tablas",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-100-clasica",
+    "name": "Tabla 100 Clásica",
+    "price": 38500,
+    "description": "El festín total. \n10 cortes en Palta: camaron panko queso cebollin \n10 cortes en Sésamo: Pollo panko queso cebollin\n10 cortes en Hosomaki : salmon palta \n10 cortes en Ciboulette: queso palta pimentón \n10 cortes Hosomaki: camaron paltA\n10 cortes  en Queso Crema: Kanikama queso cebollin \n40 cortes en Panko (calientes)\n10 Cortes Fuji : Queso, Palta, Cebollín con Topping de Camarón Furai y Salsa Fuji\nPollo - Queso - Palta / Pollo - Queso - Cebollin / Champiñón - Queso - Cebollin",
+    "imageUrl": "https://i.postimg.cc/1tVr9Y1W/tabla-100-cortes-clasica.jpg",
+    "category": "Tablas",
+    "stock": 10,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-31"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "tabla-100-super-premium",
+    "name": "Tabla 100 Super Premium",
+    "price": 47990,
+    "description": "10 cortes en Palta:  (Camarón panko - Queso - Cebollín)\n10 Cortes en Ciboulette (Camarón - Queso - Palta)\n10 Tropical Roll: (Envuelto en platano - Pollo Panko - Queso - Cebollín)\n10 Cortes Hosomaki (Salmón - Palta)\n10 Cortes Fuji : (Queso - Palta - Cebollín con toping de camarón furai y salsa Fuji)\n10 Cortes en Salmón (Kanikama, queso, palta)\n40 Cortes Hot (calientes)\n(Pollo - Queso - Pimentón)\n(Champiñón - Queso - Cebollín) \n(Pollo - Queso - Palta)\n(Kanikama - Queso - Palta)",
+    "imageUrl": "https://i.postimg.cc/sXG4V0C0/tabla-100-super-premium.jpg",
+    "category": "Tablas",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "barco-fusion-30",
+    "name": "Barco Fusión (30 pz)",
+    "price": 19990,
+    "description": "10 Dragon Roll, (Pollo - Queso - Cebollín - Palta - Con topping de salsa Dragon)\n10 Inka Roll (Salmón Panko - Queso - Cebollín - Envuelto en palta con toque de salsa huancaína)\n10 California ( Camarón Panko - Queso - Palta - Envuelto en ciboulette)",
+    "imageUrl": "https://i.postimg.cc/4NWH6tCj/05c2b9ef-5a5f-4c05-8db2-f41860b92499.jpg",
+    "category": "Tablas",
+    "stock": 10,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-32"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "barco-fusion-premium",
+    "name": "Barco Premium (30 pz)",
+    "price": 22990,
+    "description": "10 Fuji Roll (Queso - Cebollín y Palta con topping de camarón furay y salsa fuji)\n10 Acevichado (Camarón Panko - Queso - Palta - Envuelto en palta con topping de ceviche)\n10 Dinamita Roll (Salmón Panko - Queso - Palta - Envuelto en queso con topping de ensalada surimi)",
+    "imageUrl": "https://i.postimg.cc/mD1yb6Ww/barco-fusion-premium.jpg",
+    "category": "Tablas",
+    "stock": 10,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-33"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "barco-premium",
+    "name": "Barco Premium (45 pz)",
+    "price": 30000,
+    "description": "10 cortes Acevichados, (Camarón Panko - Queso crema - Cebollín - Envuelto en palta con topping de ceviche)\n10 cortes Tigger Roll, (Camarón Panko - Queso crema - Palta - Envuelto en plátano, con topping de salsa de queso flameada)\n10 cortes de Fuji Rolls, ( Palta - Queso crema - Cebollin - Envuelto en sésamo con topping de camarón panko y salsa Fuji)\n10 cortes de Dragon Rolls, (Pollo - Queso crema - Palta y CebollÍn, envuelto en panko con topping de salsas de queso, picante y Unagui)  5 Gyosas (Pollo)",
+    "imageUrl": "",
+    "category": "Tablas",
+    "stock": 999,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "barco-clasico-65",
+    "name": "Barco Clásico (65 pz)",
+    "price": 34000,
+    "description": "10 cortes de roll Hosomaki, (Pimentón Panko y Palta - Envuelto en alga Nori)\n10 cortes de California Roll, (Pollo Panko - Queso crema - Cebollín - Envuelto en sésamo o ciboulette.)\n10 cortes de Hot Roll,(Pollo - Queso crema - Palta - Envuelto en panko)\n10 cortes de Dragon Rolls, (Pollo - Queso crema - Palta y CebollÍn - Envuelto en panko con topping de salsas de queso, picante y Unagui)\n10 cortes de Avocado Rolls, (Salmón - Queso crema y Cebollin - Envuelto en palta).\n10 cortes de Hot Roll, (Camarón - Queso crema - Cebollín - Envuelto en panko )\n5 Gyosas mixtas (Pollo)",
+    "imageUrl": "https://i.postimg.cc/yWqZv7J4/BARCO-65-PIEZAS.png",
+    "category": "Tablas",
+    "stock": 10,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-34"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ceviche-camaron",
+    "name": "Ceviche de Camarón",
+    "price": 10500,
+    "description": "Camarón, palta, pimentón, cebolla morada, cilantro y leche de tigre.",
+    "imageUrl": "https://i.postimg.cc/d1xdZ2wJ/CEVICHE-CAMARON.png",
+    "category": "Ceviches",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-35"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ceviche-maki",
+    "name": "Ceviche Maki",
+    "price": 10990,
+    "description": "Salmón, palta, pimentón, cebolla morada, cilantro y leche de tigre.",
+    "imageUrl": "https://i.postimg.cc/DwYsTGB3/874d4db2-e316-43b9-9c68-476dc7bca991.jpg",
+    "category": "Ceviches",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-36"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ceviche-mixto",
+    "name": "Ceviche Mixto",
+    "price": 11990,
+    "description": "Lomo de salmón, tilapia, camarón, kanikama, pulpo, cebolla y cilantro.",
+    "imageUrl": "https://i.postimg.cc/855MCKQF/CEVICHE-MIXTO.png",
+    "category": "Ceviches",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-37"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "trilogia-ceviche",
+    "name": "Trilogía de Ceviche",
+    "price": 20990,
+    "description": "Tres ceviches: Peruano (tilapia), Salmón (leche tigre) y Camarón-Mango.",
+    "imageUrl": "https://i.postimg.cc/25TnrptB/TRILOGIA-CEVICHES.png",
+    "category": "Ceviches",
+    "stock": 15,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-38"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "salteado-wok",
+    "name": "Salteado al Wok",
+    "price": 7990,
+    "description": "Vegetales frescos y arroz especial. Elige proteína.",
+    "imageUrl": "https://i.postimg.cc/MKc55GL8/SALTEADO-A-WOK-CON-PROTEINA(1).png",
+    "category": "Platos Calientes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-39"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Proteína",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Carne",
+            "price": 1000
+          },
+          {
+            "name": "Salmón",
+            "price": 4000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yakisoba",
+    "name": "Yakisoba",
+    "price": 8000,
+    "description": "Fideos japoneses, pimentón, zanahoria, cebollín, sésamo. Elige proteína.",
+    "imageUrl": "https://i.postimg.cc/1zMDsxdH/YAKISOBA-CAMARON.png",
+    "category": "Platos Calientes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-40"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Variedad",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Pollo",
+            "price": 0
+          },
+          {
+            "name": "Camarón",
+            "price": 0
+          },
+          {
+            "name": "Vegetariano",
+            "price": 0
+          },
+          {
+            "name": "Fusión (Pollo/Cam/Calamar)",
+            "price": 3990
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lomo-saltado",
+    "name": "Lomo Saltado",
+    "price": 14000,
+    "description": "Lomo de vacuno salteado, cebolla, tomate, soya. Incluye papas y arroz.",
+    "imageUrl": "https://i.postimg.cc/fLrXScDm/LOMO-SALTADO.png",
+    "category": "Platos Calientes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-41"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-vegetariano",
+    "name": "Poke Vegetariano",
+    "price": 7500,
+    "description": "Pepino, cebollín, pimentón, champiñón, cebolla, queso crema.",
+    "imageUrl": "https://i.postimg.cc/mgYQp1y4/POKE-VEGETARIANO.png",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-42"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-pollo",
+    "name": "Poke de Pollo",
+    "price": 7990,
+    "description": "Pollo salteado, pimentón, queso, pepino, zanahoria, cebollín.",
+    "imageUrl": "https://i.postimg.cc/50WX4SvC/5651de86-2d4f-44f5-9b27-a878965cf5ae.jpg",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-43"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-crunch",
+    "name": "Poke Crunch",
+    "price": 9500,
+    "description": "Pollo panko, camarón panko, queso, palta, cebollín.",
+    "imageUrl": "https://i.postimg.cc/jS0Hh4NJ/POKE-CRUNCH.png",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-44"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-salmon",
+    "name": "Poke Salmón",
+    "price": 10990,
+    "description": "Salmón, zanahoria, palta, queso, cebollín.",
+    "imageUrl": "https://i.postimg.cc/fTYRnctz/e049231f-fa6d-4130-8285-d29abdd9e335.jpg",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-45"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "poke-neptuno",
+    "name": "Poke Neptuno",
+    "price": 12990,
+    "description": "Salmón, kanikama, camarón, queso, palta, zanahoria, wakame.",
+    "imageUrl": "https://i.postimg.cc/CxTG4sDk/POKE-NEPTUNO.png",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-46"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "sushi-burger",
+    "name": "Sushi Burger",
+    "price": 7500,
+    "description": "Base arroz, palta, cebollín, queso. Elige tu proteína.",
+    "imageUrl": "https://i.postimg.cc/sDBmm2Lv/SUSHI-BURGER.png",
+    "category": "Pokes",
+    "stock": 30,
+    "isActive": true,
+    "isFeatured": true,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-47"
+    ],
+    "modifiers": [],
+    "extended_options": [
+      {
+        "name": "Elige Proteína",
+        "max_qty": 1,
+        "items": [
+          {
+            "name": "Champiñón",
+            "price": 0
+          },
+          {
+            "name": "Pollo",
+            "price": 500
+          },
+          {
+            "name": "Camarón Panko",
+            "price": 1490
+          },
+          {
+            "name": "Salmón",
+            "price": 2000
+          },
+          {
+            "name": "Mixta (Pollo y Camarón)",
+            "price": 4490
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ramen-shouyu",
+    "name": "Shouyu Ramen",
+    "price": 11990,
+    "description": "Caldo casa, fideos, cerdo, huevo ajitama, nori, maíz, cebolla, shitake.",
+    "imageUrl": "https://i.postimg.cc/R0vwkCgx/ramen-cerdo.png",
+    "category": "Ramen",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-48"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ramen-miso-tori",
+    "name": "Miso Ramen Tori",
+    "price": 10990,
+    "description": "Caldo casa, fideos, pollo, huevo ajitama, nori, maíz, cebolla, shitake.",
+    "imageUrl": "https://i.postimg.cc/25Cnsj0D/ramen-pollo.png",
+    "category": "Ramen",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-49"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "ramen-miso-ebi",
+    "name": "Miso Ramen Ebi",
+    "price": 13000,
+    "description": "Caldo casa, fideos, camarón, huevo ajitama, nori, maíz, cebolla, shitake.",
+    "imageUrl": "https://i.postimg.cc/W4s0Bp5P/ramen-camaron.png",
+    "category": "Ramen",
+    "stock": 20,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-50"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "combo-dinner",
+    "name": "Combo Dinner",
+    "price": 7990,
+    "description": "10 piezas (5 palta, 5 panko) + Bebida. Solo almuerzo. HORARIO: 13:00pm - 16:00pm",
+    "imageUrl": "https://i.postimg.cc/0ytGyF5T/b93e7fcc-f116-4530-b8f6-55d5923e711a.jpg",
+    "category": "Promos",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-51"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
+    "id": "combo-sushi-burger",
+    "name": "Combo Sushi Burger",
+    "price": 11990,
+    "description": "Sushi Burger Pollo + Papas + Bebida.",
+    "imageUrl": "https://i.postimg.cc/T3VrN5JT/PROMO-SUSHI-BURGER-BEBIDA.png",
+    "category": "Promos",
+    "stock": 50,
+    "isActive": true,
+    "isFeatured": false,
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-52"
+    ],
+    "modifiers": [],
+    "extended_options": []
+  },
+  {
     "id": "bebida-lata",
     "name": "Bebida Lata 350cc",
     "price": 2000,
@@ -1241,7 +1632,14 @@
     "stock": 200,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-53"
+    ],
     "modifiers": [],
     "extended_options": [
       {
@@ -1286,7 +1684,14 @@
     "stock": 50,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-54"
+    ],
     "modifiers": [],
     "extended_options": [
       {
@@ -1315,7 +1720,14 @@
     "stock": 50,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-55"
+    ],
     "modifiers": [],
     "extended_options": [
       {
@@ -1344,7 +1756,14 @@
     "stock": 50,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-56"
+    ],
     "modifiers": [],
     "extended_options": [
       {
@@ -1377,7 +1796,14 @@
     "stock": 20,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-57"
+    ],
     "modifiers": [],
     "extended_options": []
   },
@@ -1391,7 +1817,14 @@
     "stock": 30,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-58"
+    ],
     "modifiers": [],
     "extended_options": [
       {
@@ -1432,7 +1865,14 @@
     "stock": 20,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-59"
+    ],
     "modifiers": [],
     "extended_options": [
       {
@@ -1473,7 +1913,14 @@
     "stock": 20,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-60"
+    ],
     "modifiers": [],
     "extended_options": []
   },
@@ -1487,7 +1934,14 @@
     "stock": 20,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-61"
+    ],
     "modifiers": [],
     "extended_options": []
   },
@@ -1501,7 +1955,14 @@
     "stock": 100,
     "isActive": true,
     "isFeatured": false,
-    "relatedIds": [],
+    "relatedIds": [
+      "bebida-lata",
+      "arrollado-primavera",
+      "niguiris-4",
+      "gyosas-5",
+      "bolitas-crispy",
+      "sashimi-62"
+    ],
     "modifiers": [],
     "extended_options": [
       {

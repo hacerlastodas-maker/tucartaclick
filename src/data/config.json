@@ -1,5 +1,5 @@
 {
-  "name": "Fusión Sushi",
+  "name": "Fusión Sushi Quillota",
   "whatsappNumber": "56956401503",
   "logoUrl": "https://i.postimg.cc/XYTJLksw/logopng.png",
   "theme": {
@@ -22,7 +22,7 @@
     "zone2_price": 0
   },
   "_raw": {
-    "store_name": "Fusión Sushi",
+    "store_name": "Fusión Sushi Quillota",
     "whatsapp_number": "56956401503",
     "logo_url": "https://i.postimg.cc/XYTJLksw/logopng.png",
     "primary_color": "#C31817",
@@ -34,8 +34,8 @@
     "announcement_text": "Hoy 10% Off con el codigo MUJER",
     "announcement_bg_color": "#000000",
     "announcement_text_color": "#FFFFFF",
-    "delivery_zones": "SENDERO:3000; HOSPITAL BIPROVINCIAL:3000; RETOÑO:3000; AMTUMAPU:3000; AGUSTIN AVEZON:3000; ACONCAGUA:3000; CERRO MAYACA:3000; ALBERDI:3000; AMANECER:3000; ARAUCARIAS:3000; Lorca:3000; VILLA LAS PALMAS TERMINAL:2000; Santa Teresita:2000; Instituto:2000; La Finka:2000; La Feria:2000; Vicuña Mackenna:2000; Villa Paraíso:2000; SIMON ALAMOS:2500; MERCED:2500; CONDOMINIO ALIWEN:2500; BOSTON:2500; REBOLAR:2500; CENTRO:2500; YUNGAY ORIENTE:2500; CONDOMINIO LOS LIBERTADORES:2500; COOPREVAL:2500; TETERA, ARANCIBIA LORCA PRIETO:3500; SAN ISIDRO HASTA REGIMIENTO:4000; SAN PEDRO:8000; CAJON SAN PEDRO:10000; La Palma al Oxigeno:3000; Los Mardones:4000; Callejón:3500; Santa Olivia:5000; Las Pataguas:5000; Boco Paradero 1:3000; Rauten Casas Viejas:5500; Manzanar:10000; Pocochay:5500; LA CRUZ PARADEROS 5 AL 07:2500; LA CRUZ PARADEROS 8 AL 10:3500; LA CRUZ PARADEROS 11 AL 13:4000; LA CRUZ PARADEROS 14 al 15:4500; LA CRUZ PARADEROS 16 al 17:5000; LA CRUZ PARADEROS 18 al 19:5500; LA CRUZ PARADEROS 20 al 22:6500",
-    "coupons": "PRUEBAS;1"
+    "delivery_zones": "SENDERO:3000; HOSPITAL BIPROVINCIAL:3000; RETOÑO:3000; AMTUMAPU:3000; AGUSTIN AVEZON:3000; ACONCAGUA:3000; CERRO MAYACA:3000; ALBERDI:3000; AMANECER:3000; ARAUCARIAS:3000; Lorca:3000; VILLA LAS PALMAS TERMINAL:2500; Santa Teresita:2500; Instituto:2500; La Finka:2500; La Feria:2500; Vicuña Mackenna:2500; Villa Paraíso:2500; SIMON ALAMOS:2500; MERCED:2500; CONDOMINIO ALIWEN:2500; BOSTON:2500; REBOLAR:2500; CENTRO:2500; YUNGAY ORIENTE:2500; CONDOMINIO LOS LIBERTADORES:2500; COOPREVAL:2500; TETERA, ARANCIBIA LORCA PRIETO:3500; SAN ISIDRO HASTA REGIMIENTO:4000; SAN PEDRO:8000; CAJON SAN PEDRO:10000; La Palma al Oxigeno:3000; Los Mardones:4000; Callejón:3500; Santa Olivia:5000; Las Pataguas:5000; Boco Paradero 1:3000; Rauten Casas Viejas:5500; Manzanar:10000; Pocochay:5500; LA CRUZ PARADEROS 5 AL 07:2500; LA CRUZ PARADEROS 8 AL 10:3500; LA CRUZ PARADEROS 11 AL 13:4000; LA CRUZ PARADEROS 14 al 15:4500; LA CRUZ PARADEROS 16 al 17:5000; LA CRUZ PARADEROS 18 al 19:5500; LA CRUZ PARADEROS 20 al 22:6500",
+    "coupons": "PRUEBAS;10"
   },
   "deliveryZones": [
     {
@@ -84,31 +84,31 @@
     },
     {
       "name": "VILLA LAS PALMAS TERMINAL",
-      "price": 2000
+      "price": 2500
     },
     {
       "name": "Santa Teresita",
-      "price": 2000
+      "price": 2500
     },
     {
       "name": "Instituto",
-      "price": 2000
+      "price": 2500
     },
     {
       "name": "La Finka",
-      "price": 2000
+      "price": 2500
     },
     {
       "name": "La Feria",
-      "price": 2000
+      "price": 2500
     },
     {
       "name": "Vicuña Mackenna",
-      "price": 2000
+      "price": 2500
     },
     {
       "name": "Villa Paraíso",
-      "price": 2000
+      "price": 2500
     },
     {
       "name": "SIMON ALAMOS",
@@ -231,12 +231,8 @@
     {
       "code": "PRUEBAS",
       "type": "PERCENT",
-      "value": 0
-    },
-    {
-      "code": "1",
-      "type": "PERCENT",
-      "value": 0
+      "value": 10,
+      "minOrderAmount": 0
     }
   ]
 }
