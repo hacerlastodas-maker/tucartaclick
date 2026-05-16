@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 
 import { ShopStatusBanner } from "@/components/layout/ShopStatusBanner";
 import { AnnouncementBanner } from "@/components/layout/AnnouncementBanner";
+import { Footer } from "@/components/layout/Footer";
 import { SHOP_CONFIG } from "@/data";
 
 export const metadata: Metadata = {
@@ -71,8 +72,11 @@ export default function RootLayout({
         <ShopStatusBanner />
 
         {/* Content Wrapper - Full Width */}
-        <div className="w-full min-h-screen bg-transparent shadow-none transition-all relative z-10">
-          {children}
+        <div className="w-full min-h-screen flex flex-col bg-transparent shadow-none transition-all relative z-10">
+          <div className="flex-1">
+            {children}
+          </div>
+          <Footer />
         </div>
       </body>
     </html>
